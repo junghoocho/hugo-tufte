@@ -1,3 +1,12 @@
+# About this Fork
+
+This is a fork of `shawnohare/hugo-tufte`. I made two changes in this fork.
+
+1.  For fast math rendering, I use KaTeX, not MathJAX in this fork. 
+2.  I use pure.min.css v1.0 as opposed to v0.6.0 in the original repository
+
+The rest of this document is from the original REAMDE
+
 # Tufte Hugo Theme
 
 Hugo-Tufte is a minimalist blog-like theme for the
