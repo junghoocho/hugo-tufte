@@ -264,7 +264,7 @@ details[open] summary {
 /* ------------------------------------------------------------------------ */
 /*  MathJax styling
 /* ------------------------------------------------------------------------ */
-.MathJax .katex {
+.MathJax, .katex {
     font: inherit;
     color: inherit;
     font-size: 100%;
@@ -272,7 +272,7 @@ details[open] summary {
     border: inherit;
 }
 
-.MathJax_Display .katex-display {
+.MathJax_Display, .katex-display {
     font: inherit;
     color: inherit;
     font-size: 100%;
