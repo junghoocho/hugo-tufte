@@ -30,7 +30,7 @@
       <br>
       <i class="fa fa-tags"> </i>
       {{ range .Params.categories }}
-        <a  href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        <a  href="{{ relURL ($.Site.BaseURL) }}/categories/{{ . | urlize }}">{{ . }}</a>
       {{ end }}
     {{ end }}
   </span>
