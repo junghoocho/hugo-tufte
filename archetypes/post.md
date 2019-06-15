@@ -1,9 +1,9 @@
 ---
-meta = true
-toc = true
-author = "AUTHOR NAME"
-math = false
-markup = mmark
+meta: true
+toc: true
+author: "AUTHOR NAME"
+math: false
+markup: mmark
 ---
 
 
