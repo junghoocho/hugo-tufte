@@ -1,7 +1,7 @@
 ---
 meta: false 
 toc: false 
-author: "AUTHOR NAME"
+author: "Junghoo Cho"
 math: false 
 markup: mmark
 ---
