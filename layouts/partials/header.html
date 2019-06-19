@@ -1,7 +1,7 @@
 {{- partial "doctype.html" . -}}
 <head>
 <title>{{ .Site.Title }}{{ if .Title }} - {{ .Title  }}{{ end }}</title>
-
+{{- if .Site.Params.logo -}}<link rel="icon" type="image/png" href="{{- .Site.Params.logo -}}">{{- end -}}
   {{- partial "meta.html" . -}}
   {{- partial "opengraph.html" -}}
   {{- partial "header.includes.html" . -}}
