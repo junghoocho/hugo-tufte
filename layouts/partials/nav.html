@@ -1,3 +1,4 @@
+{{- if .Site.Menus.nav -}}
 <nav class="menu">
     <ul>
     {{ range .Site.Menus.nav  }}
@@ -5,3 +6,4 @@
     {{ end }}
     </ul>
 </nav>
+{{- end -}}
