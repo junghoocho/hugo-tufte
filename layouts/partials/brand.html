@@ -1,5 +1,5 @@
 <header class="brand">
-    <h1>{{- if .Site.Params.logo -}}<img class="badge" src="{{ .Site.Params.logo }}" style="max-height: 1.1em; display: inline; margin-right: 0.4em; vertical-align: middle;">{{- end -}}{{- .Site.Title -}}</h1>
+  <h1>{{- .Site.Title -}}</h1>
   {{- if .Site.Params.subtitle -}}<p class="subtitle">{{ .Site.Params.subtitle }}</p>{{- end -}}
   {{ partial "nav.html" . }}
 </header>
