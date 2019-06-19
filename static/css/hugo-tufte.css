@@ -263,9 +263,9 @@ details[open] summary {
 
 a:link, 
 a:visited {
-  color: #a00000; 
-  text-decoration: none;
-  background: transparent;
+  color: #a00000!important; 
+  text-decoration: none!important;
+  background: transparent!important;
 }
 a:hover,
 a:active,
